@@ -35,7 +35,11 @@ if (Serial.available() > 0)
       if(mssg == 'd')
       {
         derecha(); 
-      } 
+      }
+      if(mssg == 'c')
+      {
+        detener(); 
+      }  
       if(mssg == 'q')
       {
         velocidad+=15; 
@@ -43,7 +47,12 @@ if (Serial.available() > 0)
       if(mssg == 'e')
       {
         velocidad-=15; 
-      }                     
+      }
+      if(mssg == 'n')
+      {
+        detener();
+      }
+                           
    }
 }
 
