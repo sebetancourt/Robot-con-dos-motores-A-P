@@ -17,4 +17,4 @@ while a:
       if (comando== 'n'):
           print("¡Nos vemos pronto!! ")
           a= False
-          
+arduino.close()
